@@ -1,0 +1,111 @@
+body, html {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+}
+
+.w3-animate-main{animation:fading 8s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}80%{opacity:1}100%{opacity:0}}
+
+.w3-padding{padding:10px 14px!important}
+
+.my-upper{text-transform: uppercase}
+
+.mySlides {display: none}
+
+.my-main-banner, .my-main-page{
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:42px;
+    height: 25%;
+}
+
+.my-main-banner{height: 25%;}
+.my-main-page{height: 50%;}
+
+.picture-whole-page{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.w3-tangerine {
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+}
+
+.my-bar-item{padding:3px 16px;float:left;width:auto;border:none;outline:none;display:block}
+
+.my-paragraph {text-align:justify!important}
+h1.my-heading {font-size:30px;letter-spacing:4px}
+h2.my-heading {font-size:24px;font-weight:bold;}
+h3.my-heading {font-size:18px;font-weight:bold;text-align:left!important;}
+
+.my-subheading {font-size:20px;opacity:0.60;font-style:italic}
+
+.my-image-right,.my-image-left{border-radius:8px;margin-bottom:16px!important;width:80%}
+
+@media (min-width:601px){
+.my-image-right{float:right!important;margin-left:16px!important;width:40%}
+.my-image-left{float:left!important;margin-right:16px!important;width:40%}
+}
+@media (min-width:993px){
+  .my-image-right{width:30%}
+  .my-image-left{width:30%}
+}
+
+.my-image-right-container,.my-image-left-container{margin: auto;margin-bottom:8px!important;width:80%;}
+.my-image{border-radius:8px;width:100%;}
+
+@media (min-width:601px){
+.my-image-right-container{float:right!important;margin-left:16px!important;width:40%}
+.my-image-left-container{float:left!important;margin-right:16px!important;width:40%}
+}
+@media (min-width:993px){
+  .my-image-right-container{width:30%}
+  .my-image-left-container{width:30%}
+}
+
+.my-descript{background: rgba(255, 255, 255, 0.7); width:90%;border-radius:16px;}
+
+.w3-win8-steel
+{color:#fff;background-color:#647687}
+.w3-text-win8-steel
+{color:#647687;background-color:#fff}
+.w3-text-metro-dark-blue
+{color:#2b5797;background-color:#fff}
+
+.w3-metro-light-green
+{color:#fff;background-color:#99b433}
+.w3-metro-green
+{color:#fff;background-color:#00a300}
+.w3-metro-dark-green
+{color:#fff;background-color:#1e7145}
+.w3-metro-magenta
+{color:#fff;background-color:#ff0097}
+.w3-metro-light-purple
+{color:#fff;background-color:#9f00a7}
+.w3-metro-purple
+{color:#fff;background-color:#7e3878}
+.w3-metro-dark-purple
+{color:#fff;background-color:#603cba}
+.w3-metro-darken
+{color:#fff;background-color:#1d1d1d}
+.w3-metro-teal
+{color:#fff;background-color:#00aba9}
+.w3-metro-light-blue
+{color:#000;background-color:#eff4ff}
+.w3-metro-blue
+{color:#fff;background-color:#2d89ef}
+.w3-metro-dark-blue
+{color:#fff;background-color:#2b5797}
+.w3-metro-yellow
+{color:#fff;background-color:#ffc40d}
+.w3-metro-orange
+{color:#fff;background-color:#e3a21a}
+.w3-metro-dark-orange
+{color:#fff;background-color:#da532c}
+.w3-metro-red
+{color:#fff;background-color:#ee1111}
+.w3-metro-dark-red
+{color:#fff;background-color:#b91d47}
